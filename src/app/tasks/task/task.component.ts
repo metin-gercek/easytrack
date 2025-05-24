@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { Task } from '../task/task.modal';
+import { Task } from './task.model';
 @Component({
   selector: 'app-task',
   standalone: true,
